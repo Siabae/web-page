@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: Montserrat;
+    margin: 0;
+}
+
+.title{
+    margin: 0;
+}
+
+.navbar {
+    background-color: white;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.item:hover{
+    background-color: #dfadcb; /* Original color */
+    color: #773a5a;
+    border-radius: 15px;
+}
+
+.image{
+    width: 50px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.login button{
+    background-color: #dfadcb; /* Original color */
+    color: #773a5a;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.login button:hover{
+    transform: translateY(-2px);
+    background-color:  #f1dee9; /* Lighter blue on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.content{
+    display: flex;
+    
+    align-items: center;
+    padding: 40px 20px;
+    justify-content: space-between;
+    height: calc(100vh - 50px);
+}
+
+.home-image{
+    width: 450px;
+}
+
+.para {
+    width: 550px;
+    font-family: 'Montserrat';
+    text-align: justify;
+    margin-top: 5px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
+
+.content-button button{
+    background-color: #dfadcb; /* Original color */
+    color: #773a5a;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease; /* Smooth transition */
+}
+.content-button button:hover{
+    background-color:  #f1dee9; /* Lighter blue on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+    transform: translateY(-2px); /* Slight upward movement */
+}
+
+.about {
+    display: flex;
+    height: 400px;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 40px 20px;
+    gap: 90px;
+}
+.main{
+    background-image: url(./images/about.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.info-text {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.info{
+    flex-grow: 1;
+    width: 400px;
+    padding-left: 40px;
+}
+
+.details{
+    flex-grow: 1; 
+    margin-left: 50px;  
+    padding-left:200px; 
+}
+
+h1.about-us {
+    font-size: xxx-large;
+    text-align: start;
+    /* margin-top: 15px; */
+}
+
+.title-bar {
+    width: 5px;
+    height: 100px;
+    background-color: #773a5a;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.container-title-bar{
+    display : flex;
+    justify-content: flex-start;
+}
+
+.sign-up-button button{
+    background-color: #dfadcb;
+    color: #773a5a;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.sign-up-button button:hover{
+    background-color:  #f1dee9; /* Lighter blue on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+    transform: translateY(-2px); /* Slight upward movement */
+}
+
+.what-we-do {
+    /* margin-top: 25px; */
+    font-size: xxx-large;
+    text-align: start;    
+}
+.obj1{
+    margin: 10px 0px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 15px;
+    padding: 10px 0px;
+    
+}
+.obj2{
+    margin: 10px 0px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 15px;
+    padding: 10px 0px;
+    
+}
+.obj3{
+    margin: 10px 0px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 15px;
+    padding: 10px 0px;
+}
+
+.all-elements{
+    padding-top: 10px;
+
+}
+
+.all-elements p{
+    font-size: x-large;
+}
+.all-elements i{
+    font-size: xx-large;
+}
+
+.info, .details{
+    background-color: rgba(255, 255, 255, 0.3); /* White with 30% opacity */
+    backdrop-filter: blur(10px); /* Applies a blur effect to the background */
+    border-radius: 10px; /* Optional: adds rounded corners */
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Optional: adds a subtle shadow */
+}
