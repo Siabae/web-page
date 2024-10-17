@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
 *{
     font-family: Montserrat;
     margin: 0;
@@ -60,16 +63,20 @@ img{
 }
 
 .content{
-    display: flex;
-    
+    display: flex;    
     align-items: center;
-    padding: 40px 20px;
+    padding: 40px 50px;
     justify-content: space-between;
-    height: calc(100vh - 50px);
+    height: calc(100vh - 50px );
+    
 }
 
 .home-image{
     width: 450px;
+}
+.home-image img{
+    padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .para {
@@ -101,12 +108,13 @@ img{
 
 .about {
     display: flex;
-    height: 400px;
+    height: 500px;
     align-items: flex-start;
     justify-content: space-between;
     padding: 40px 20px;
     gap: 90px;
 }
+
 .main{
     background-image: url(./images/about.jpg);
     background-size: cover;
@@ -211,9 +219,126 @@ h1.about-us {
 }
 
 .info, .details{
+    /*background-color: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px); 
+    border-radius: 10px; 
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); */
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    margin-top: 70px;
+    }
+
+
+.services {
+    display: flex;
+    height: 400px;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 40px 105px;
+}
+
+.service{
+    padding: 40px 20px;
+    height: 100vh;
+}
+.big-title{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+}
+.service-1, .service-2, .service-3{
+    border: #773a5a;
+    border-width: 10px;
+    width: 300px;
     background-color: rgba(255, 255, 255, 0.3); /* White with 30% opacity */
     backdrop-filter: blur(10px); /* Applies a blur effect to the background */
     border-radius: 10px; /* Optional: adds rounded corners */
-    padding: 20px;
+    padding: 5px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Optional: adds a subtle shadow */
 }
+.img1 img, .img2 img, .img3 img{
+    height: 200px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.img1, .img2, .img3{
+    height: 200px;
+    text-align: center;
+}
+.head1, .head2, .head3{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    
+}
+.paragraph1, .paragraph2, .paragraph3{
+    text-align: center;
+    padding: 0px 5px;
+}
+
+.fst-div,.scnd-div,.thrd-div{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.thrd-butt {
+    background-color: #dfadcb;
+    color: #773a5a;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+.scnd-butt {
+    background-color: #dfadcb;
+    color: #773a5a;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+.fst-butt {
+    background-color: #dfadcb;
+    color: #773a5a;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.thrd-div button:hover{
+    background-color:  #f1dee9; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+    transform: translateY(-2px); /* Slight upward movement */
+}
+.scnd-div button:hover{
+    background-color:  #f1dee9; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+    transform: translateY(-2px); /* Slight upward movement */
+}
+.fst-div button:hover{
+    background-color:  #f1dee9; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+    transform: translateY(-2px); /* Slight upward movement */
+}
+
