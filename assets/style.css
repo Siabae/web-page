@@ -218,12 +218,7 @@ h1.about-us {
     font-size: xx-large;
 }
 
-.info, .details{
-    /*background-color: rgba(255, 255, 255, 0.3); 
-    backdrop-filter: blur(10px); 
-    border-radius: 10px; 
-    padding: 20px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); */
+.info, .details{    
     background-color: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
     border-radius: 10px;
@@ -341,4 +336,86 @@ h1.about-us {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
     transform: translateY(-2px); /* Slight upward movement */
 }
+
+
+
+.contact{
+    padding: 40px 20px;
+    height: 100vh;
+   
+}
+.container {    
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    height: 450px;
+    width: 700Px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  input, textarea {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-left: 20px;
+    background-color:#f1dee9 ;
+}
+.container h1{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: #773a5a;
+}
+
+textarea{
+    height: 100px;
+}
+.container button{
+    width: 85%;    
+    border-radius: 20px;
+    margin-left: 20px;
+    background-color: #dfadcb;
+    color: #773a5a;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.container button:hover{
+    background-color:  #f1dee9; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+    transform: translateY(-2px); /* Slight upward movement */
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    
+}
+form{
+    width: 50%;
+}
+.image-contact{
+    width: 50%;
+    height: 50%;
+    text-align:center;
+}
+.image-mail{
+    height: 80%;
+    width: 70%;
+}
+
+
 
